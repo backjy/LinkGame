@@ -1,6 +1,8 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 
+#include "LinkGameLayer.h"
+
 using namespace cocos2d;
 using namespace CocosDenshion;
 
@@ -10,11 +12,11 @@ CCScene* HelloWorld::scene()
     CCScene *scene = CCScene::create();
     
     // 'layer' is an autorelease object
-    HelloWorld *layer = HelloWorld::create();
-
+//    HelloWorld *layer = HelloWorld::create();
+    LinkGameLayer * layer = LinkGameLayer::LGL_getSharedGameLayer();
     // add layer as a child to scene
     scene->addChild(layer);
-
+    layer->startGame();
     // return the scene
     return scene;
 }

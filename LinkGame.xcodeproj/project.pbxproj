@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D7F642D1721A29800CF431B /* diamond_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F64251721A29800CF431B /* diamond_1.png */; };
+		2D7F642E1721A29800CF431B /* diamond_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F64261721A29800CF431B /* diamond_2.png */; };
+		2D7F642F1721A29800CF431B /* diamond_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F64271721A29800CF431B /* diamond_3.png */; };
+		2D7F64301721A29800CF431B /* diamond_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F64281721A29800CF431B /* diamond_4.png */; };
+		2D7F64311721A29800CF431B /* diamond_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F64291721A29800CF431B /* diamond_5.png */; };
+		2D7F64321721A29800CF431B /* diamond_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F642A1721A29800CF431B /* diamond_6.png */; };
+		2D7F64331721A29800CF431B /* diamond_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F642B1721A29800CF431B /* diamond_7.png */; };
+		2D7F64341721A29800CF431B /* diamond_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F642C1721A29800CF431B /* diamond_8.png */; };
 		2D89B3D6172139A9000FDCB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89B3D5172139A9000FDCB1 /* QuartzCore.framework */; };
 		2D89B3D8172139A9000FDCB1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89B3D7172139A9000FDCB1 /* OpenGLES.framework */; };
 		2D89B3DA172139A9000FDCB1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89B3D9172139A9000FDCB1 /* OpenAL.framework */; };
@@ -210,9 +218,21 @@
 		2D89B68C172139AC000FDCB1 /* cocos2dx-ext_public.defines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D89B68B172139AC000FDCB1 /* cocos2dx-ext_public.defines.txt */; };
 		2D89B692172139AC000FDCB1 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D89B691172139AC000FDCB1 /* AppDelegate.cpp */; };
 		2D89B695172139AC000FDCB1 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D89B694172139AC000FDCB1 /* HelloWorldScene.cpp */; };
+		2D89B6A117213A40000FDCB1 /* LinkGameDateHandle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D89B69F17213A40000FDCB1 /* LinkGameDateHandle.cpp */; };
+		2D89B6A417213AA8000FDCB1 /* LinkGameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D89B6A217213AA8000FDCB1 /* LinkGameLayer.cpp */; };
+		2D89B6A717213C18000FDCB1 /* LinkSpriteCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D89B6A517213C18000FDCB1 /* LinkSpriteCell.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D7F64251721A29800CF431B /* diamond_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_1.png; sourceTree = "<group>"; };
+		2D7F64261721A29800CF431B /* diamond_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_2.png; sourceTree = "<group>"; };
+		2D7F64271721A29800CF431B /* diamond_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_3.png; sourceTree = "<group>"; };
+		2D7F64281721A29800CF431B /* diamond_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_4.png; sourceTree = "<group>"; };
+		2D7F64291721A29800CF431B /* diamond_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_5.png; sourceTree = "<group>"; };
+		2D7F642A1721A29800CF431B /* diamond_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_6.png; sourceTree = "<group>"; };
+		2D7F642B1721A29800CF431B /* diamond_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_7.png; sourceTree = "<group>"; };
+		2D7F642C1721A29800CF431B /* diamond_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond_8.png; sourceTree = "<group>"; };
+		2D7F64351721A35700CF431B /* LinkGameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkGameConfig.h; sourceTree = "<group>"; };
 		2D89B3D2172139A9000FDCB1 /* LinkGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D89B3D5172139A9000FDCB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2D89B3D7172139A9000FDCB1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -660,6 +680,12 @@
 		2D89B691172139AC000FDCB1 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		2D89B693172139AC000FDCB1 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		2D89B694172139AC000FDCB1 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		2D89B69F17213A40000FDCB1 /* LinkGameDateHandle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkGameDateHandle.cpp; sourceTree = "<group>"; };
+		2D89B6A017213A40000FDCB1 /* LinkGameDateHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkGameDateHandle.h; sourceTree = "<group>"; };
+		2D89B6A217213AA8000FDCB1 /* LinkGameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkGameLayer.cpp; sourceTree = "<group>"; };
+		2D89B6A317213AA8000FDCB1 /* LinkGameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkGameLayer.h; sourceTree = "<group>"; };
+		2D89B6A517213C18000FDCB1 /* LinkSpriteCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkSpriteCell.cpp; sourceTree = "<group>"; };
+		2D89B6A617213C18000FDCB1 /* LinkSpriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkSpriteCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -682,6 +708,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7F64241721A29800CF431B /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				2D7F64251721A29800CF431B /* diamond_1.png */,
+				2D7F64261721A29800CF431B /* diamond_2.png */,
+				2D7F64271721A29800CF431B /* diamond_3.png */,
+				2D7F64281721A29800CF431B /* diamond_4.png */,
+				2D7F64291721A29800CF431B /* diamond_5.png */,
+				2D7F642A1721A29800CF431B /* diamond_6.png */,
+				2D7F642B1721A29800CF431B /* diamond_7.png */,
+				2D7F642C1721A29800CF431B /* diamond_8.png */,
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
 		2D89B3C9172139A9000FDCB1 = {
 			isa = PBXGroup;
 			children = (
@@ -717,6 +758,7 @@
 		2D89B3E5172139A9000FDCB1 /* LinkGame */ = {
 			isa = PBXGroup;
 			children = (
+				2D7F64241721A29800CF431B /* ImageResource */,
 				2D89B3E6172139A9000FDCB1 /* Resources */,
 				2D89B3FE172139A9000FDCB1 /* ios */,
 				2D89B407172139A9000FDCB1 /* libs */,
@@ -1591,12 +1633,28 @@
 		2D89B68F172139AC000FDCB1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2D89B69B172139F6000FDCB1 /* LinkGameClasses */,
 				2D89B690172139AC000FDCB1 /* AppDelegate.h */,
 				2D89B691172139AC000FDCB1 /* AppDelegate.cpp */,
 				2D89B693172139AC000FDCB1 /* HelloWorldScene.h */,
 				2D89B694172139AC000FDCB1 /* HelloWorldScene.cpp */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		2D89B69B172139F6000FDCB1 /* LinkGameClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2D89B69F17213A40000FDCB1 /* LinkGameDateHandle.cpp */,
+				2D89B6A017213A40000FDCB1 /* LinkGameDateHandle.h */,
+				2D89B6A217213AA8000FDCB1 /* LinkGameLayer.cpp */,
+				2D89B6A317213AA8000FDCB1 /* LinkGameLayer.h */,
+				2D89B6A517213C18000FDCB1 /* LinkSpriteCell.cpp */,
+				2D89B6A617213C18000FDCB1 /* LinkSpriteCell.h */,
+				2D7F64351721A35700CF431B /* LinkGameConfig.h */,
+			);
+			name = LinkGameClasses;
+			path = Classes/LinkGameClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1663,6 +1721,14 @@
 				2D89B495172139AA000FDCB1 /* ChangeLog in Resources */,
 				2D89B68A172139AC000FDCB1 /* cocos2dx-ext.mkf in Resources */,
 				2D89B68C172139AC000FDCB1 /* cocos2dx-ext_public.defines.txt in Resources */,
+				2D7F642D1721A29800CF431B /* diamond_1.png in Resources */,
+				2D7F642E1721A29800CF431B /* diamond_2.png in Resources */,
+				2D7F642F1721A29800CF431B /* diamond_3.png in Resources */,
+				2D7F64301721A29800CF431B /* diamond_4.png in Resources */,
+				2D7F64311721A29800CF431B /* diamond_5.png in Resources */,
+				2D7F64321721A29800CF431B /* diamond_6.png in Resources */,
+				2D7F64331721A29800CF431B /* diamond_7.png in Resources */,
+				2D7F64341721A29800CF431B /* diamond_8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1853,6 +1919,9 @@
 				2D89B686172139AC000FDCB1 /* CCPhysicsSprite.cpp in Sources */,
 				2D89B692172139AC000FDCB1 /* AppDelegate.cpp in Sources */,
 				2D89B695172139AC000FDCB1 /* HelloWorldScene.cpp in Sources */,
+				2D89B6A117213A40000FDCB1 /* LinkGameDateHandle.cpp in Sources */,
+				2D89B6A417213AA8000FDCB1 /* LinkGameLayer.cpp in Sources */,
+				2D89B6A717213C18000FDCB1 /* LinkSpriteCell.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1986,6 +2055,7 @@
 				2D89B69A172139AC000FDCB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
